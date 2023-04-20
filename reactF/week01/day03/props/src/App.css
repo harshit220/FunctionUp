@@ -1,0 +1,12 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 100px;
+}
+span{
+  color: red;
+}
+strong{
+  color: red;
+}
