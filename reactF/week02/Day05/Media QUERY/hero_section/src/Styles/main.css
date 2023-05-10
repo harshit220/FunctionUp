@@ -5,6 +5,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Titillium Web", sans-serif;
+	overflow: hidden;
 }
 
 :root {
@@ -51,7 +52,22 @@ nav {
 	display: flex;
 	align-items: center;
 }
+.Containerr{
+	display: flex;
+}
 
+.Containerr img {
+	height:90vh;
+	width: 50vw;
+}
+.Containerr .text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+
+}
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
 		visibility: visible;
@@ -85,5 +101,28 @@ nav {
 
 	nav a {
 		font-size: 1.5rem;
+	}
+	.Containerr{
+		flex-direction: column-reverse;
+		margin-left: 20%;
+		align-items: center;
+		width:60vw ;
+		height: 90vh;
+		justify-content: center;
+	}
+	.Containerr img{
+		width: 40vw;
+		height: 40vh;
+	}
+
+	.Containerr .text{
+		margin-left: -58px;
+		text-align: center;
+		padding: 0;
+	}
+
+	.text p{
+		margin-left: 35px;
+		padding-left: 0;
 	}
 }

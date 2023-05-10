@@ -10,7 +10,6 @@ function Navbar() {
 			"responsive_nav"
 		);
 	};
-
 	return (
 		<header>
 			<h3>Harshit</h3>
